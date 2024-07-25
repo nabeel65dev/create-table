@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> images tag </title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1719056307923-a11de279d25f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200pxl" alt="no image">
+
+    <img src="./html-course.png" width="200pxl" alt="no image">
+
+    <picture>
+        <src media="(min-width:650px)"srcset="./html-cou.png"/>
+
+        <src media="(min-width:460px)"srcset="./html-course2.png"/>
+
+        <img src="./html-cour.png" alt="">
+    </picture>
+    <!-- an image map generator -->
+    <img src="html-course.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="" alt="" title="" href="" coords="820,212,644,277" shape="rect">
+        <area target="" alt="" title="" href="" coords="767,363,673,447" shape="rect">
+    </map>
+
+
+
+    
+</body>
+</html>
