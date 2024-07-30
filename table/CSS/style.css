@@ -3,7 +3,9 @@ div {
     width: 100px;
     background-color: pink;
     border: 2px solid brown;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    padding-right: 25px;
+    margin-top: 50px;
 
 }
 
