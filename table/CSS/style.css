@@ -1,18 +1,46 @@
-.loder  {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 20px solid blue;
-    border-top:20px solid black;
-    animation: spinAnimate 3s ease-in 0s infinite normal;
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
 
 }
 
-@keyframes spinAnimate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
 }
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(amazon-logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+
+.border {
+    border: 1.5px silide transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/*  */
+
+.add-first {
+    color: #cccccc;
+    font-size:1 rem;
+}
+
+.add-second {
+    font-size:1 rem;
+}
+
