@@ -1,19 +1,46 @@
-#box1 {
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    font-size: 10px;
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
 }
 
-#box2 {
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+
+.nav-logo {
     height: 50px;
-    width: 30%;
-    background-color: red;
-    margin-left: 10%;
-    font-size: 2em;
-    width: 5rem;
-    height: 100vh;
-    width: 100vh;
+    width: 100px;
+}
 
+.logo {
+    background-image: url(amazon-logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
 
 }
+
+.border {
+    border: 1.5px silide transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/*  */
+
+.add-first {
+    color: #cccccc;
+    font-size:1 rem;
+}
+
+.add-second {
+    font-size:1 rem;
+}
+
